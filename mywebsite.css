@@ -1,0 +1,57 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" > :root {
+  text-align: center;
+  font-size: small;
+  font-family: Arial;
+}
+
+body {
+  padding-right: 10%;
+}
+
+title {
+  padding-right: 0%;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Apple Chancery";
+  padding-right: 0%;
+}
+
+ol {
+  list-style-type: none;
+  position: relative;
+}
+
+ol::before {
+  content: none;
+  position: absolute;
+  left: -0.8em;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Apple Chancery";
+  font-weight: bold;
+}
+
+li.linkedin {
+  background-image: url("linkedinLogo.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  list-style: none;
+  margin: 0;
+  background-position: left center;
+  padding: 10px 36px 10px;
+}
+
+li.github {
+  background-image: url("githublogo.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  list-style: none;
+  margin: 0;
+  background-position: left center;
+  padding: 10px 36px 10px;
+}
