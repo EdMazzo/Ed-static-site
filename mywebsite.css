@@ -5,7 +5,7 @@
 }
 
 body {
-  padding-right: 10%;
+  padding-right: 0%;
   color: whitesmoke;
 }
 
@@ -26,6 +26,7 @@ ol {
   list-style-type: none;
   position: relative;
   color: whitesmoke;
+  padding-right: 10%;
 }
 
 ol::before {
@@ -103,7 +104,24 @@ li.github {
 
 /* Change colour of link when visited*/
 a:visited {
-  color: green;
+  color: #06754c;
   background-color: transparent;
   text-decoration: none;
+}
+
+a:link {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.one {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.one div {
+  width: 100%;
 }
