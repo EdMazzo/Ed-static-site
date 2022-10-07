@@ -127,7 +127,24 @@ a:link {
 }
 
 .footer {
-  background-color: #04aa6d;
+  background-color: #06754c;
   text-align: center;
   color: whitesmoke;
+}
+
+/*Attempt at adding content on the right side*/
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 75%;
+}
+
+.column2 {
+  flex: 25%;
+  background-color: #06754c;
+  text-align: right;
+  color: whitesmoke;
+  padding-right: 1%;
 }
