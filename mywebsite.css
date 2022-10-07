@@ -92,6 +92,28 @@ li.basiclan {
   padding: 10px 56px 10px;
 }
 
+li.python {
+  background-image: url("Python-logo-notext.svg.png"),
+    url("Bash_Logo_Colored.svg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20px, 20px;
+  list-style: none;
+  margin: 0;
+  background-position: left center, 20px;
+  padding: 10px 56px 10px;
+}
+
+li.java {
+  background-image: url("Java_programming_language_logo.svg.png"),
+    url("ISO_C++_Logo.svg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20px, 20px;
+  list-style: none;
+  margin: 0;
+  background-position: left center, 20px;
+  padding: 10px 56px 10px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   position: -webkit-sticky;
