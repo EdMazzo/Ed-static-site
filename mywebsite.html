@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <!-- Set the language to English-->
-<html lang="en" style="background-color:#999BF4">
+<html lang="en" style="background-color: #333;">
 <link rel="stylesheet" href="mywebsite.css" type="text/css"/>
     <head>
         <title> Mr Edmondo Mazzoncini MPhys MInstP </title>
     </head>
     <body>
+        <div class="topnav">
+            <a class="active" href="#home">Edmondo Mazzoncini</a>
+            <a href="#bio">About Me</a>
+            <a href="#contact">Contact</a>
+            <a href="#education">Education</a>
+        </div>
         <style>
             h1 {text-align: center;}
         </style>
@@ -13,11 +19,11 @@
         <p style="text-align: center;"> <img src="mypic.jpg" width="375" height="400" alt="My homemeade headshot"/> </p>
         <p align="justify">
             <ol class="custom-counter" align="justify">
-                <li> <h2> Brief Bio </h2> </li>
+                <li id="bio"> <h2> Brief Bio </h2> </li>
                 <div align="justify">I am an Astrophysicist with a specialisation in Pulsar Radioastronomy.
                 I developed a passion for coding only during my degree, despite having been interested in tech since my early teens.
                 I enjoy reading historical novels, and listening to metal - especially power metal.
-                </div><li>
+                </div><li id="education">
                     <h2> Education </h2> </li>
                     <ul>
                         <li> Sept 2011 - June 2016: Liceo Scientifico "G. Marconi" - Italian A-Level equivalent.
@@ -78,7 +84,7 @@
                         <li class="github">
                             <a href="https://github.com/EdMazzo"> GitHub Profile </a>
                         </li>
-                        <li class="linkedin">
+                        <li class="linkedin" id="contact">
                             <a href="https://www.linkedin.com/in/edmondo-mazzoncini-39569317a/"> Linkedin Profile </a>
                         </li>
                     </ul>

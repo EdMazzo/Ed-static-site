@@ -6,10 +6,12 @@
 
 body {
   padding-right: 10%;
+  color: whitesmoke;
 }
 
 title {
   padding-right: 0%;
+  color: whitesmoke;
 }
 
 h1 {
@@ -17,11 +19,13 @@ h1 {
   font-size: xx-large;
   font-family: "Apple Chancery";
   padding-right: 0%;
+  color: whitesmoke;
 }
 
 ol {
   list-style-type: none;
   position: relative;
+  color: whitesmoke;
 }
 
 ol::before {
@@ -34,6 +38,7 @@ ol::before {
 h2 {
   font-family: "Apple Chancery";
   font-weight: bold;
+  color: whitesmoke;
 }
 
 li.linkedin {
@@ -54,4 +59,51 @@ li.github {
   margin: 0;
   background-position: left center;
   padding: 10px 36px 10px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #333333;
+  overflow: hidden;
+  flex: 1;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #06754c;
+  color: white;
+}
+
+.topnav a.lactive {
+  background-color: #04aa6d;
+  color: white;
+  text-align: left;
+  align-self: left;
+}
+
+/* Change colour of link when visited*/
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
