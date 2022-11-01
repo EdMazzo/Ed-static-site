@@ -43,5 +43,5 @@ jobs:
           file: .github/actions/Dockerfile
           push: true
           tags: |
-            ghcr.io/EdMazzo/${{ github.event.repository.name }}:latest            
-            ghcr.io/EdMazzo/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
+            ghcr.io/edmazzo/${{ github.event.repository.name }}:latest            
+            ghcr.io/edmazzo/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
